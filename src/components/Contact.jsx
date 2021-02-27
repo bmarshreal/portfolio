@@ -8,7 +8,7 @@ function Contact(params) {
         <h1 className="contactHeading">Lets Create Something!</h1>
 
         <p className="contactParagraph">
-          Are you interested in created a great project together? Lets meet up.
+          Are you interested in creating a great project together? Lets meet up.
           Contact me below!{" "}
         </p>
       </div>

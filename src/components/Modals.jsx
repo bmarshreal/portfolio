@@ -17,8 +17,6 @@ function Modals({ value }) {
           border: "3px solid #900ccb",
           borderRadius: "15px",
           margin: "2px",
-          // position: "relative",
-          // top: "80%",
         }}
         className="modalBtn"
         onClick={handleShow}
@@ -34,8 +32,8 @@ function Modals({ value }) {
           closeButton
         ></Modal.Header>
         <Modal.Body
+          className="contactModal"
           style={{
-            height: "22rem",
             color: "white",
             backgroundColor: "#300ccb",
           }}

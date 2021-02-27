@@ -79,7 +79,8 @@ html {
 .projectCards {
   max-width: 98%;
   position: relative;
-  right: 8%;
+  right: auto;
+  left: 1.5%;
   width: 100%;
   margin-top: 10rem;
 }
@@ -87,9 +88,23 @@ html {
 .projects {
   position: absolute;
   top: 125%;
-  left: 16.5%;
+  left: 7.5%;
+  right: auto;
   width: 90%;
 }
+/* .projectCards {
+    max-width: 90%;
+    margin-top: auto;
+    position: relative;
+    left: 6%;
+  }
+
+  .projects {
+    position: absolute;
+    top: 195%;
+    left: 8%;
+    width: 95%;
+  } */
 .projectCardBody {
   transition-duration: 1s;
   background-color: #300ccb;
@@ -101,8 +116,9 @@ html {
   border: 3px solid #900ccb;
   border-radius: 15px;
   margin: 2px;
-  position: relative;
-  bottom: 2%;
+  position: absolute;
+  bottom: 15%;
+  right: 48.7%;
 }
 .hoverImg {
   background-size: 100% 100%;
@@ -141,6 +157,9 @@ html {
   position: relative;
   bottom: 190%;
 }
+.contactModal {
+  height: 22rem;
+}
 .footer {
   width: 100vw;
   height: 40rem;
@@ -175,6 +194,7 @@ html {
   top: 0%;
   margin: 2rem;
   right: 20%;
+  left: auto;
 }
 .logoFooter {
   height: 5rem;
@@ -219,23 +239,21 @@ html {
   }
   .App {
     text-align: center;
-    min-width: 100vw;
-    max-width: 100vw;
-    left: 5%;
+    min-width: 88vw;
+    max-width: 88vw;
   }
   html {
-    width: 95%;
+    width: 88vw;
   }
-
   .intro {
     margin-top: 10%;
     position: relative;
-    left: 3%;
+    left: 6%;
     font-size: 2.7rem;
   }
   .navigate {
-    max-width: 95%;
-    left: 5%;
+    max-width: 97%;
+    left: 6.5%;
     width: 100vw;
   }
   .menuBtn {
@@ -247,14 +265,14 @@ html {
   .avatar {
     position: relative;
     margin: 4rem;
-    left: 5%;
+    left: 6%;
   }
   .devIcon1 {
     height: 22rem;
     width: 22rem;
     margin-bottom: none;
     position: relative;
-    left: 2.5%;
+    left: 6.5%;
   }
   .greet {
     background-color: #900ccb;
@@ -280,7 +298,7 @@ html {
     top: 35%;
     margin-bottom: 1rem;
     height: 30rem;
-    right: 12%;
+    right: 10%;
   }
 
   .skillCards {
@@ -292,17 +310,17 @@ html {
     height: 6rem;
   }
   .projectCards {
-    max-width: 100%;
-    position: relative;
-    right: 9.25%;
+    max-width: 90%;
     margin-top: auto;
+    position: relative;
+    left: 6%;
   }
 
   .projects {
     position: absolute;
     top: 195%;
-    left: 12%;
-    width: 100%;
+    left: 8%;
+    width: 95%;
   }
   .projectCardBody {
     transition-duration: 1s;
@@ -315,8 +333,9 @@ html {
     border: 3px solid #900ccb;
     border-radius: 15px;
     margin: 2px;
-    position: relative;
-    bottom: 10%;
+    position: absolute;
+    bottom: 2%;
+    right: 33%;
   }
   .hoverImg {
     background-size: 100% 100%;
@@ -334,7 +353,7 @@ html {
     position: absolute;
     height: 12.5rem;
     width: 96%;
-    left: 4.5%;
+    left: 8.5%;
     top: 280%;
     bottom: 10%;
     border-radius: 10px;
@@ -351,45 +370,59 @@ html {
     position: relative;
     bottom: 70%;
   }
+  .contactModal {
+    height: 20rem;
+    /* width: 2rem; */
+    /* position: absolute;
+    right: 50%; */
+  }
+  .contactBtn {
+    position: absolute;
+    bottom: 25%;
+  }
+  .email {
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 1%;
+    /* z-index: 3; */
+  }
+
   .footer {
     width: 100vw;
-    height: 80rem;
+    height: 40rem;
     background-color: #900ccb;
     top: 285%;
     position: absolute;
   }
   .textFooter {
     position: absolute;
-    top: 20%;
+    top: 42%;
     left: 10%;
   }
-  .email {
-    color: white;
-    position: absolute;
-    top: 60%;
-    right: 33.5%;
-  }
+
   .footerBtnContainer {
     position: absolute;
-    height: 20rem;
-    width: 30rem;
+    height: 5rem;
+    width: 20rem;
     background-color: none;
-    left: 40%;
-    top: 35%;
+    left: 8%;
+    top: 75%;
   }
   .footerBtn {
     position: relative;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     top: 0%;
-    margin: 1rem;
-    right: 20%;
+    margin: 0.7rem;
+    right: auto;
+    left: 2%;
   }
   .logoFooter {
     height: 5rem;
     width: 5rem;
     position: absolute;
-    top: 12%;
+    top: 27%;
     right: 41%;
     z-index: 2;
   }
@@ -398,7 +431,7 @@ html {
     position: fixed;
     background-color: #900ccb;
     z-index: 1000;
-    left: 55%;
+    left: 86%;
     top: 88%;
     border-radius: 70%;
     height: 3.25rem;
