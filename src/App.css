@@ -1,38 +1,383 @@
-.App {
+* {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
+  min-width: 100vw;
+  max-width: 100vw;
+  left: 5%;
+}
+html {
+  width: 95%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.intro {
+  margin-top: 10%;
+  position: relative;
+  left: 3%;
+  font-size: 2.7rem;
+}
+.navigate {
+  max-width: 95%;
+  left: 5%;
+  width: 100vw;
+}
+.menuBtn {
+  position: relative;
+  left: auto;
+  color: #900ccb;
+  border-color: #900ccb;
+}
+.avatar {
+  position: relative;
+  margin: 4rem;
+  left: 2%;
+}
+.devIcon1 {
+  margin: 3rem 0 0 0 0;
+  height: 25rem;
+  width: 25rem;
+  margin-bottom: none;
+  position: relative;
+  left: 2%;
+}
+.greet {
+  background-color: #900ccb;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  font-weight: 400;
+  width: 100vw;
+  height: 40rem;
+}
+.greetPhrase {
+  width: 35%;
+  font-size: 1.25rem;
+  left: 32.5%;
+  position: relative;
+  margin-top: 5rem;
+}
+.cardIcon {
+  height: 3rem;
+  width: 3rem;
+}
+.skillCardContainer {
+  width: 98%;
+  top: 19%;
+  margin-bottom: 1rem;
+  height: 25rem;
+}
+.skillCards {
+  margin-bottom: 1rem;
+  z-index: 1;
+  top: 65%;
+  left: 8%;
+  width: auto;
+  height: 6rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.projectCards {
+  max-width: 98%;
+  position: relative;
+  right: 8%;
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.projects {
+  position: absolute;
+  top: 125%;
+  left: 16.5%;
+  width: 90%;
+}
+.projectCardBody {
+  transition-duration: 1s;
+  background-color: #300ccb;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.modalBtn {
+  border: 10px solid white;
+  background-color: #300ccb;
+  border: 3px solid #900ccb;
+  border-radius: 15px;
+  margin: 2px;
+  position: relative;
+  bottom: 2%;
+}
+.hoverImg {
+  background-size: 100% 100%;
+  height: 16rem;
+  border-radius: 10px 10px 10px 10px;
+  background-repeat: no-repeat;
+  background-position: cover;
+  /* position: relative;
+    right: 5%; */
+}
+.contactBox {
+  padding-top: 2%;
+  padding-bottom: 10%;
+  background-color: #300ccb;
+  position: absolute;
+  height: 2.5rem;
+  width: 90%;
+  left: 8%;
+  top: 174%;
+  bottom: 10%;
+  border-radius: 10px;
+  z-index: 2;
+}
+.contactText {
+  position: relative;
+  top: 0;
+}
+.contactHeading {
+  font-size: 2rem;
+  color: white;
+  position: relative;
+  top: 0%;
+}
+.contactParagraph {
+  color: white;
+  position: relative;
+  bottom: 190%;
+}
+.footer {
+  width: 100vw;
+  height: 40rem;
+  background-color: #900ccb;
+  top: 180%;
+  position: absolute;
+  padding-bottom: 50%;
+}
+.email {
+  color: white;
+  position: relative;
+  top: 40%;
+  right: 1.5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footerBtn {
+  position: relative;
+  width: 3.5rem;
+  height: 3.5rem;
+  top: 55%;
+  margin: 2rem;
+  right: 1.5%;
+}
+.floaterBtn {
+  border: 2px solid white;
+  position: fixed;
+  background-color: #900ccb;
+  z-index: 1000;
+  left: 95%;
+  top: 88%;
+  border-radius: 70%;
+  height: 3.25rem;
+  width: 3.25rem;
+  font-size: 2rem;
+  color: white;
+  opacity: 80%;
+  font-weight: 800;
+}
+.floaterLinks {
+  border: 2px solid white;
+  position: fixed;
+  background-color: none;
+  z-index: 1000;
+  left: 0;
+  border-radius: 0;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 2rem;
+  color: white;
+  opacity: 80%;
+  font-weight: 800;
+}
+@media only screen and (max-width: 500px) {
+  * {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  .App {
+    text-align: center;
+    min-width: 100vw;
+    max-width: 100vw;
+    left: 5%;
+  }
+  html {
+    width: 95%;
+  }
+
+  .intro {
+    margin-top: 10%;
+    position: relative;
+    left: 3%;
+    font-size: 2.7rem;
+  }
+  .navigate {
+    max-width: 95%;
+    left: 5%;
+    width: 100vw;
+  }
+  .menuBtn {
+    position: relative;
+    left: 140%;
+    color: #900ccb;
+    border-color: #900ccb;
+  }
+  .avatar {
+    position: relative;
+    margin: 4rem;
+    left: 5%;
+  }
+  .devIcon1 {
+    height: 22rem;
+    width: 22rem;
+    margin-bottom: none;
+    position: relative;
+    left: 2.5%;
+  }
+  .greet {
+    background-color: #900ccb;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    font-weight: 400;
+    width: 100vw;
+  }
+  .greetPhrase {
+    width: 90%;
+    font-size: 1.25rem;
+    left: 5%;
+    position: relative;
+    margin-top: 2.5rem;
+  }
+  .cardIcon {
+    height: 3rem;
+    width: 3rem;
+  }
+  .skillCardContainer {
+    width: 98%;
+    top: 35%;
+    margin-bottom: 1rem;
+    height: 30rem;
+    right: 12%;
+  }
+
+  .skillCards {
+    margin-bottom: 1rem;
+    z-index: 1;
+    top: 65%;
+    left: 25%;
+    width: auto;
+    height: 6rem;
+  }
+  .projectCards {
+    max-width: 100%;
+    position: relative;
+    right: 9.25%;
+    margin-top: auto;
+  }
+
+  .projects {
+    position: absolute;
+    top: 195%;
+    left: 12%;
+    width: 100%;
+  }
+  .projectCardBody {
+    transition-duration: 1s;
+    background-color: #300ccb;
+    color: white;
+  }
+  .modalBtn {
+    border: 10px solid white;
+    background-color: #300ccb;
+    border: 3px solid #900ccb;
+    border-radius: 15px;
+    margin: 2px;
+    position: relative;
+    bottom: 10%;
+  }
+  .hoverImg {
+    background-size: 100% 100%;
+    height: 16rem;
+    border-radius: 10px 10px 10px 10px;
+    background-repeat: no-repeat;
+    background-position: cover;
+    /* position: relative;
+    right: 5%; */
+  }
+  .contactBox {
+    padding-top: 15%;
+    padding-bottom: 30%;
+    background-color: #300ccb;
+    position: absolute;
+    height: 12.5rem;
+    width: 96%;
+    left: 4.5%;
+    top: 280%;
+    bottom: 10%;
+    border-radius: 10px;
+    z-index: 2;
+  }
+  .contactHeading {
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    bottom: 90%;
+  }
+  .contactParagraph {
+    color: white;
+    position: relative;
+    bottom: 70%;
+  }
+  .footer {
+    width: 100vw;
+    height: 80rem;
+    background-color: #900ccb;
+    top: 285%;
+    position: absolute;
+  }
+  .email {
+    color: white;
+    position: relative;
+    top: 40%;
+    right: 1.5%;
+  }
+  .footerBtn {
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    top: 55%;
+    margin: 1rem;
+  }
+  .floaterBtn {
+    border: 2px solid white;
+    position: fixed;
+    background-color: #900ccb;
+    z-index: 1000;
+    left: 78%;
+    top: 88%;
+    border-radius: 70%;
+    height: 3.25rem;
+    width: 3.25rem;
+    font-size: 2rem;
+    color: white;
+    opacity: 80%;
+    font-weight: 800;
+  }
+  .floaterLinks {
+    border: 2px solid white;
+    position: fixed;
+    background-color: none;
+    z-index: 1000;
+    left: 0;
+    border-radius: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 2rem;
+    color: white;
+    opacity: 80%;
+    font-weight: 800;
   }
 }
