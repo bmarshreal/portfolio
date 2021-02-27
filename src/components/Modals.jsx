@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
 import { Modal, Button } from "react-bootstrap";
+import EmailForm from "./EmailForm";
 
 function Modals({ value }) {
   const [show, setShow] = useState(false);
@@ -22,23 +23,23 @@ function Modals({ value }) {
         className="modalBtn"
         onClick={handleShow}
       >
-        Technologies Used
+        Contact Me!
       </Button>
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>
-            {value === 0
-              ? "Motivate!"
-              : value === 1
-              ? "Secrets"
-              : value === 2
-              ? "RESTful Wiki"
-              : value === 3
-              ? "Coming Soon..."
-              : null}
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
+        <Modal.Header
+          style={{
+            backgroundColor: "#900ccb",
+            color: "white",
+          }}
+          closeButton
+        ></Modal.Header>
+        <Modal.Body
+          style={{
+            height: "22rem",
+            color: "white",
+            backgroundColor: "#300ccb",
+          }}
+        >
           {value === 0
             ? "A motivational website built using: "
             : value === 1
@@ -46,10 +47,16 @@ function Modals({ value }) {
             : value === 2
             ? "RESTful Wiki"
             : value === 3
-            ? "Coming Soon..."
+            ? "Coming Soon...1"
             : null}
+          <EmailForm />
         </Modal.Body>
-        <Modal.Footer>
+        <Modal.Footer
+          style={{
+            backgroundColor: "#900ccb",
+            color: "white",
+          }}
+        >
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>

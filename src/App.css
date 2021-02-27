@@ -149,20 +149,40 @@ html {
   position: absolute;
   padding-bottom: 50%;
 }
+.textFooter {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
 .email {
   color: white;
-  position: relative;
-  top: 40%;
-  right: 1.5%;
+  position: absolute;
+  /* top: 60%; */
+  right: 35%;
 }
-
+.footerBtnContainer {
+  position: absolute;
+  height: 20rem;
+  width: 40rem;
+  background-color: none;
+  left: 45%;
+  top: 42%;
+}
 .footerBtn {
   position: relative;
   width: 3.5rem;
   height: 3.5rem;
-  top: 55%;
+  top: 0%;
   margin: 2rem;
-  right: 1.5%;
+  right: 20%;
+}
+.logoFooter {
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  top: 20%;
+  right: 49.5%;
+  z-index: 2;
 }
 .floaterBtn {
   border: 2px solid white;
@@ -338,25 +358,47 @@ html {
     top: 285%;
     position: absolute;
   }
+  .textFooter {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
   .email {
     color: white;
-    position: relative;
-    top: 40%;
-    right: 1.5%;
+    position: absolute;
+    top: 60%;
+    right: 33.5%;
+  }
+  .footerBtnContainer {
+    position: absolute;
+    height: 20rem;
+    width: 30rem;
+    background-color: none;
+    left: 40%;
+    top: 35%;
   }
   .footerBtn {
     position: relative;
     width: 3.5rem;
     height: 3.5rem;
-    top: 55%;
+    top: 0%;
     margin: 1rem;
+    right: 20%;
+  }
+  .logoFooter {
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    top: 12%;
+    right: 41%;
+    z-index: 2;
   }
   .floaterBtn {
     border: 2px solid white;
     position: fixed;
     background-color: #900ccb;
     z-index: 1000;
-    left: 78%;
+    left: 55%;
     top: 88%;
     border-radius: 70%;
     height: 3.25rem;

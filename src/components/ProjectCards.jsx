@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../App.css";
-import Modals from "./Modals";
 import { Button, CardDeck, Card } from "react-bootstrap";
 import motivateself from "../images/motivateself.jpg";
 import keys from "../images/keys.png";
@@ -57,7 +56,6 @@ function ProjectCards(params) {
                   Github Repo
                 </Button>
               </a>
-              <Modals />
             </Card.Body>
           ) : (
             <Card.Img
@@ -113,7 +111,6 @@ function ProjectCards(params) {
                   Github Repo
                 </Button>
               </a>
-              <Modals />
             </Card.Body>
           ) : (
             <Card.Img
@@ -169,7 +166,6 @@ function ProjectCards(params) {
                   Github Repo
                 </Button>
               </a>
-              <Modals />
             </Card.Body>
           ) : (
             <Card.Img
@@ -226,7 +222,6 @@ function ProjectCards(params) {
                   Github Repo
                 </Button>
               </a>
-              <Modals />
             </Card.Body>
           ) : (
             <Card.Img

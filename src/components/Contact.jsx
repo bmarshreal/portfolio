@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import Modals from "./Modals";
 
 function Contact(params) {
   return (
@@ -12,20 +12,7 @@ function Contact(params) {
           Contact me below!{" "}
         </p>
       </div>
-      <Button
-        className="modalBtn"
-        style={{
-          backgroundColor: "#300CCB",
-          border: "3px solid #900ccb",
-          borderRadius: "15px",
-          margin: "2px",
-          position: "relative",
-          bottom: "65%",
-          right: "2%",
-        }}
-      >
-        Contact Me!
-      </Button>
+      <Modals />
     </div>
   );
 }
