@@ -37,7 +37,7 @@ function ProjectCards(params) {
                   borderRadius: "15px",
                   margin: "2px",
                 }}
-                className="modalBtn"
+                className="projectBtn"
               >
                 Live Demo
               </Button>
@@ -50,7 +50,7 @@ function ProjectCards(params) {
                   borderRadius: "15px",
                   margin: "2px",
                 }}
-                className="modalBtn"
+                className="projectBtn"
               >
                 Github Repo
               </Button>
@@ -92,7 +92,7 @@ function ProjectCards(params) {
                   borderRadius: "15px",
                   margin: "2px",
                 }}
-                className="modalBtn"
+                className="projectBtn"
               >
                 Live Demo
               </Button>
@@ -105,7 +105,7 @@ function ProjectCards(params) {
                   borderRadius: "15px",
                   margin: "2px",
                 }}
-                className="modalBtn"
+                className="projectBtn"
               >
                 Github Repo
               </Button>
@@ -147,7 +147,7 @@ function ProjectCards(params) {
                   borderRadius: "15px",
                   margin: "2px",
                 }}
-                className="modalBtn"
+                className="projectBtn"
               >
                 Live Demo
               </Button>
@@ -160,7 +160,7 @@ function ProjectCards(params) {
                   borderRadius: "15px",
                   margin: "2px",
                 }}
-                className="modalBtn"
+                className="projectBtn"
               >
                 Github Repo
               </Button>
@@ -197,13 +197,13 @@ function ProjectCards(params) {
             </Card.Text>
             <a href="https://motivbkb.netlify.app/">
               <Button
+                className="projectBtn"
                 style={{
                   backgroundColor: "#300CCB",
                   border: "3px solid #900ccb",
                   borderRadius: "15px",
                   margin: "2px",
                 }}
-                className="modalBtn"
               >
                 Live Demo
               </Button>
@@ -216,7 +216,7 @@ function ProjectCards(params) {
                   borderRadius: "15px",
                   margin: "2px",
                 }}
-                className="modalBtn"
+                className="projectBtn"
               >
                 Github Repo
               </Button>
