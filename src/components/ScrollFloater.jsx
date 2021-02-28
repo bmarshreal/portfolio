@@ -3,7 +3,7 @@ import "../App.css";
 import { Button } from "react-bootstrap";
 
 function ScrollFloater(props) {
-  const [scroll, setScroll] = useState(true);
+  const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
     function scroller() {
@@ -35,7 +35,7 @@ function ScrollFloater(props) {
             zIndex: "1000",
             backgroundColor: "#900ccb",
             position: "fixed",
-            left: "80%",
+            left: "85%",
             top: "88%",
             fontSize: "2rem",
             color: "white",
