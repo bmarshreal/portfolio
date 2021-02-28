@@ -26,6 +26,10 @@ function ScrollFloater(props) {
     <div>
       {scroll ? (
         <button
+          style={{
+            height: "52px",
+            width: "52px",
+          }}
           className="floaterBtn"
           onClick={topScroll}
           type="button"
