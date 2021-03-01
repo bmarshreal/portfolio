@@ -210,27 +210,19 @@ html {
   left: 95%;
   top: 88%;
   border-radius: 70%;
-  height: 52px;
-  width: 52px;
+  height: 3.5rem;
+  width: 3.5rem;
   font-size: 2rem;
   color: white;
   opacity: 80%;
   font-weight: 800;
 }
-.floaterLinks {
-  border: 2px solid white;
-  position: fixed;
-  background-color: none;
-  z-index: 1000;
-  left: 0;
-  border-radius: 0;
-  height: 2.5rem;
-  width: 2.5rem;
-  font-size: 2rem;
-  color: white;
-  opacity: 80%;
-  font-weight: 800;
+.floaterBtnImg {
+  position: relative;
+  bottom: 55%;
+  right: 12%;
 }
+
 @media only screen and (max-width: 500px) {
   * {
     text-align: center;
@@ -432,26 +424,17 @@ html {
     left: 86%;
     top: 88%;
     border-radius: 70%;
-    height: 3.25rem;
-    width: 3.25rem;
+    height: 3.5rem;
+    width: 3.5rem;
     font-size: 3rem;
     color: white;
     opacity: 80%;
     font-weight: 800;
     text-align: center;
   }
-  .floaterLinks {
-    border: 2px solid white;
-    position: fixed;
-    background-color: none;
-    z-index: 1000;
-    left: 0;
-    border-radius: 0;
-    height: 2.5rem;
-    width: 2.5rem;
-    font-size: 2rem;
-    color: white;
-    opacity: 80%;
-    font-weight: 800;
+  .floaterBtnImg {
+    position: relative;
+    bottom: 55%;
+    right: 12%;
   }
 }

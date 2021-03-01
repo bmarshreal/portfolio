@@ -10,7 +10,7 @@ function Greeting(params) {
           {" "}
           I first realized my passion for software development while attaining
           my associates degree in Electrical Engineering. From then on, I've
-          been hooked on programming, whether it's firmware in C or software
+          been hooked on programming, whether it's firmware in C or software in
           Javascript. I am drawn to technologies that pique my interest and I am
           constantly looking to learn new and exciting things.
         </p>

@@ -48,16 +48,7 @@ function ScrollFloater(props) {
 
           // onScroll={scroller}
         >
-          <p
-            style={{
-              position: "relative",
-              bottom: "55%",
-              right: "12%",
-            }}
-          >
-            {" "}
-            ⇪
-          </p>
+          <p className="floaterBtnImg">⇪</p>
         </Button>
       ) : null}
     </div>
