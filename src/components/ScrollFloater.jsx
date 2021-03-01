@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function ScrollFloater(props) {
-  const [scroll, setScroll] = useState(false);
+  const [scroll, setScroll] = useState(true);
 
   useEffect(() => {
     function scroller() {
