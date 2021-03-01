@@ -32,6 +32,7 @@ function ScrollFloater(props) {
             fontSize: "2rem",
             backgroundColor: "#900ccb",
             borderRadius: "55%",
+            zIndex: "3000",
           }}
           onClick={topScroll}
           type="button"
