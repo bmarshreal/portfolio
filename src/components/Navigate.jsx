@@ -60,7 +60,10 @@ function Navigate() {
           <Form inline>
             <Nav.Link href="#contactBox">
               <Button
-                style={{ borderColor: "#900ccb", color: "#900ccb" }}
+                style={{
+                  borderColor: "#900ccb",
+                  color: "#900ccb",
+                }}
                 className="menuBtn"
                 variant="outline-secondary"
               >

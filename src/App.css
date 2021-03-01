@@ -23,8 +23,6 @@ html {
   width: 100vw;
 }
 .menuBtn {
-  position: relative;
-  left: auto;
   color: #900ccb;
   border-color: #900ccb;
 }
@@ -71,7 +69,7 @@ html {
   margin-bottom: 1rem;
   z-index: 1;
   top: 65%;
-  left: 8%;
+  left: 12%;
   width: auto;
   height: 6rem;
 }
@@ -88,7 +86,7 @@ html {
 .projects {
   position: absolute;
   top: 125%;
-  left: 7.5%;
+  left: 7%;
   right: auto;
   width: 90%;
 }
@@ -258,7 +256,7 @@ html {
   }
   .menuBtn {
     position: relative;
-    left: 140%;
+    left: 130%;
     color: #900ccb;
     border-color: #900ccb;
   }
@@ -436,10 +434,11 @@ html {
     border-radius: 70%;
     height: 3.25rem;
     width: 3.25rem;
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
     opacity: 80%;
     font-weight: 800;
+    text-align: center;
   }
   .floaterLinks {
     border: 2px solid white;

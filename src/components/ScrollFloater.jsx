@@ -37,31 +37,27 @@ function ScrollFloater(props) {
             position: "fixed",
             left: "85%",
             top: "88%",
-            fontSize: "2rem",
+            fontSize: "3rem",
             color: "white",
             opacity: "75%",
             fontWeight: "800",
           }}
-          //          border: 2px solid white;
-          // position: fixed;
-          // background-color: #900ccb;
-          // z-index: 1000;
-          // left: 95%;
-          // top: 88%;
-          // border-radius: 70%;
-          // height: 52px;
-          // width: 52px;
-          // font-size: 2rem;
-          // color: white;
-          // opacity: 80%;
-          // font-weight: 800;
           className="floaterBtn"
           onClick={topScroll}
           type="button"
 
           // onScroll={scroller}
         >
-          ⇪
+          <p
+            style={{
+              position: "relative",
+              bottom: "55%",
+              right: "9%",
+            }}
+          >
+            {" "}
+            ⇪
+          </p>
         </Button>
       ) : null}
     </div>

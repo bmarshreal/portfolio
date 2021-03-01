@@ -55,6 +55,10 @@ function ProjectCards(params) {
                 Github Repo
               </Button>
             </a>
+            <p style={{ color: "white", fontWeight: "600" }}>
+              Technologies Used: React-Router, React, Bootstrap, Node, Express,
+              Multiple Web API's
+            </p>
           </Card.Body>
         ) : (
           <Card.Img
@@ -110,6 +114,10 @@ function ProjectCards(params) {
                 Github Repo
               </Button>
             </a>
+            <p style={{ color: "white", fontWeight: "600" }}>
+              Technologies Used: React, EJS, Node, Express, MongoDB/Mongoose,
+              Passport, OAuth
+            </p>
           </Card.Body>
         ) : (
           <Card.Img
@@ -165,6 +173,10 @@ function ProjectCards(params) {
                 Github Repo
               </Button>
             </a>
+            <p style={{ color: "white", fontWeight: "600" }}>
+              Technologies Used: React, Material-UI, Node, Express,
+              MongoDB/Mongoose, RESTful API
+            </p>
           </Card.Body>
         ) : (
           <Card.Img
@@ -221,6 +233,10 @@ function ProjectCards(params) {
                 Github Repo
               </Button>
             </a>
+            <p style={{ color: "white", fontWeight: "600" }}>
+              Technologies Used: React-Router, React, Bootstrap, Node, Express,
+              Multiple Web API's
+            </p>
           </Card.Body>
         ) : (
           <Card.Img
