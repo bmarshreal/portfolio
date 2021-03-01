@@ -220,7 +220,7 @@ html {
 .floaterBtnImg {
   position: relative;
   bottom: 55%;
-  right: 12%;
+  right: 30%;
 }
 
 @media only screen and (max-width: 500px) {
