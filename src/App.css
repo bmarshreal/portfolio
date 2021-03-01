@@ -205,9 +205,9 @@ html {
   z-index: 2;
 }
 .floaterScrollBtn {
-  border: none;
+  border: 4px solid white;
   position: fixed;
-  background-color: #fd502a;
+  background-color: white;
   z-index: 1000;
   left: 96%;
   top: 88%;
@@ -429,10 +429,10 @@ html {
     right: 41%;
     z-index: 2;
   }
-  .floaterBtn {
-    border: none;
+  .floaterScrollBtn {
+    border: 4px solid white;
     position: fixed;
-    background-color: #fd502a;
+    background-color: white;
     z-index: 1000;
     left: 96%;
     top: 88%;
