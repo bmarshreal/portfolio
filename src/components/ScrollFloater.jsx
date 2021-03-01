@@ -52,7 +52,7 @@ function ScrollFloater(props) {
             style={{
               position: "relative",
               bottom: "55%",
-              right: "10%",
+              right: "12%",
             }}
           >
             {" "}
