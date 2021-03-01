@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "react-bootstrap";
 
 function ScrollFloater(props) {
-  const [scroll, setScroll] = useState(false);
+  const [scroll, setScroll] = useState(true);
 
   useEffect(() => {
     function scroller() {
@@ -27,11 +27,11 @@ function ScrollFloater(props) {
     <div>
       {scroll ? (
         <Button
-          className="floaterBtn"
+          className="floaterScrollBtn"
           style={{
             fontSize: "2rem",
             backgroundColor: "#900ccb",
-            borderRadius: "60%",
+            borderRadius: "55%",
           }}
           onClick={topScroll}
           type="button"
