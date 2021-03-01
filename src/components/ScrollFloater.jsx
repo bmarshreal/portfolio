@@ -28,6 +28,11 @@ function ScrollFloater(props) {
       {scroll ? (
         <Button
           className="floaterBtn"
+          style={{
+            fontSize: "2rem",
+            backgroundColor: "#900ccb",
+            borderRadius: "60%",
+          }}
           onClick={topScroll}
           type="button"
 
