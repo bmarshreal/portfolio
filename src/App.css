@@ -203,15 +203,15 @@ html {
   z-index: 2;
 }
 .floaterBtn {
-  border: 2px solid white;
+  border: none;
   position: fixed;
   background-color: #900ccb;
   z-index: 1000;
-  left: 95%;
+  left: 96%;
   top: 88%;
   border-radius: 70%;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 3.25rem;
+  width: 3.25rem;
   font-size: 2rem;
   color: white;
   opacity: 80%;
@@ -414,24 +414,18 @@ html {
     z-index: 2;
   }
   .floaterBtn {
-    border: 2px solid white;
+    border: none;
     position: fixed;
     background-color: #900ccb;
     z-index: 1000;
-    left: 86%;
-    top: 88%;
+    left: 83%;
+    top: 86%;
     border-radius: 70%;
-    height: 3.5rem;
-    width: 3.5rem;
-    font-size: 3rem;
+    height: 3.25rem;
+    width: 3.25rem;
+    font-size: 2rem;
     color: white;
     opacity: 80%;
     font-weight: 800;
-    text-align: center;
-  }
-  .floaterBtnImg {
-    position: relative;
-    bottom: 55%;
-    right: 12%;
   }
 }
