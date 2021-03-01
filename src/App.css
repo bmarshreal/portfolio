@@ -217,11 +217,6 @@ html {
   opacity: 80%;
   font-weight: 800;
 }
-.floaterBtnImg {
-  position: relative;
-  bottom: 55%;
-  right: 30%;
-}
 
 @media only screen and (max-width: 500px) {
   * {
@@ -350,15 +345,17 @@ html {
     z-index: 2;
   }
   .contactHeading {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
-    position: relative;
-    bottom: 90%;
+    bottom: -50%;
+    left: 0%;
+    height: 10rem;
   }
   .contactParagraph {
     color: white;
-    position: relative;
-    bottom: 70%;
+    position: absolute;
+    bottom: -35%;
+    height: 10rem;
   }
   .contactModal {
     height: 20rem;
