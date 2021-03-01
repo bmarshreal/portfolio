@@ -207,13 +207,27 @@ html {
 .floaterScrollBtn {
   border: none;
   position: fixed;
-  background-color: #900ccb;
+  background-color: #fd502a;
   z-index: 1000;
-  left: 90%;
+  left: 96%;
   top: 88%;
   border-radius: 70%;
   height: 3.25rem;
   width: 3.25rem;
+  font-size: 2rem;
+  color: white;
+  opacity: 80%;
+  font-weight: 800;
+}
+.floaterLinks {
+  position: fixed;
+  background-color: none;
+  z-index: 1000;
+  left: 0;
+
+  border-radius: 0;
+  height: 2.5rem;
+  width: 2.5rem;
   font-size: 2rem;
   color: white;
   opacity: 80%;
@@ -415,16 +429,30 @@ html {
     right: 41%;
     z-index: 2;
   }
-  .floaterScrollBtn {
+  .floaterBtn {
     border: none;
     position: fixed;
-    background-color: #900ccb;
+    background-color: #fd502a;
     z-index: 1000;
-    left: 83%;
-    top: 86%;
+    left: 96%;
+    top: 88%;
     border-radius: 70%;
     height: 3.25rem;
     width: 3.25rem;
+    font-size: 2rem;
+    color: white;
+    opacity: 80%;
+    font-weight: 800;
+  }
+  .floaterLinks {
+    position: fixed;
+    background-color: none;
+    z-index: 1000;
+    left: 0;
+
+    border-radius: 0;
+    height: 2.5rem;
+    width: 2.5rem;
     font-size: 2rem;
     color: white;
     opacity: 80%;
